@@ -32,8 +32,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
 const supabase = 
-    supabaseClient.createClient('https://minhaurl', 
-        'minhaAPIKey')
+    supabaseClient.createClient('https://ijyvzqpwrhkktrhqbwgx.supabase.co', 
+        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlqeXZ6cXB3cmhra3RyaHFid2d4Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczMjcxMDY3MCwiZXhwIjoyMDQ4Mjg2NjcwfQ.FePTyMCGGKMwv_6SKNlEf97_kX-bpNO2-0b8VJZHdjU')
 
 
 app.get('/products', async (req, res) => {
